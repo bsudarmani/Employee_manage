@@ -1,0 +1,39 @@
+
+# Node.js dependencies
+node_modules/
+
+# Vue build files
+dist/
+
+# Environment files - secrets
+.env
+.env.*
+!.env.example
+
+# Laravel dependencies
+/vendor/
+
+# Laravel environment files
+/backend/.env
+/backend/.env.*
+
+# Laravel logs
+/backend/storage/logs/*
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+
+# Laravel generated files
+/backend/bootstrap/cache/*.php
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
