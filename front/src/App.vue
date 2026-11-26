@@ -1,4 +1,4 @@
-
+<!-- 
 <!--
 <script setup  lang=ts>
 import {ref} from 'vue'
@@ -28,9 +28,9 @@ button{
   padding:10px;
   cursor:pointer;
 }
-</style> -->
+</style> --> -->
 
-<script setup>
+<!-- <script setup>
 import {useCounter} from './composables/useCounter'
 const {count,increment,decrement}=useCounter()
 </script>
@@ -39,4 +39,4 @@ const {count,increment,decrement}=useCounter()
 
   <button @click="increment">+</button>
    <button @click="decrement">-</button>
-</template>
+</template> -->
